@@ -47,7 +47,7 @@ export class AppComponent {
   rewrite(event, eventName = event.type) {
     const interceptor = this.rewriteInterceptor.nativeElement;
     interceptor.queryParams = this.rewriteQueryParams;
-    interceptor.events = this.rewriteEvents
+    interceptor.events = this.rewriteEvents;
     interceptor.intercept(event, eventName);
   }
   authenticate(event, eventName = event.type) {
@@ -58,5 +58,4 @@ export class AppComponent {
     interceptor.intercept(event, eventName);
   }
 
-  }
 }
