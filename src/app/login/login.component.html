@@ -1,0 +1,7 @@
+<mtz-auth #auth></mtz-auth>
+<h2>Login</h2>
+<form name="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+  <paper-input label="Username" name="username" emitChanges ironControl required [(ngModel)]="model.username"></paper-input>
+  <paper-input label="Password" name="password" type="password" emitChanges ironControl required [(ngModel)]="model.password"></paper-input>
+  <paper-button type="submit" [disabled]="!f.form.valid" (click)="login()">Login</paper-button>
+</form>

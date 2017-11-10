@@ -1,0 +1,32 @@
+{
+  "name": "mtz-demo-a5p2",
+  "description": "Angular 5 with Polymer 2 Demo",
+  "main": "index.html",
+  "authors": [
+    "Michael Stramel <m.stramel89@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "Angular5",
+    "Polymer2",
+    "demo"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.17",
+    "paper-input": "PolymerElements/paper-input#^2.0.3",
+    "polymer": "Polymer/polymer#^2.2.0",
+    "paper-button": "PolymerElements/paper-button#^2.0.0",
+    "mtz-auth": "git@bitbucket.org:maritzmotivation/mtz-auth.git#^0.3.2",
+    "mtz-ajax-interceptor": "MaritzSTL/mtz-ajax-interceptor#^0.5.0",
+    "mtz-profile-picture": "git@bitbucket.org:maritzmotivation/mtz-profile-picture.git#^1.1.1"
+  }
+}

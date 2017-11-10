@@ -7,8 +7,23 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script src="assets/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+  <script>
+    window.Polymer = {
+      dom: 'shadow'
+    };
+  </script>
+
+  <link rel="import" href="assets/bower_components/paper-input/paper-input.html">
+  <link rel="import" href="assets/bower_components/paper-button/paper-button.html">
+  <link rel="import" href="assets/bower_components/mtz-auth/mtz-auth.html">
+  <link rel="import" href="assets/bower_components/mtz-ajax-interceptor/mtz-ajax-interceptor.html">
+  <link rel="import" href="assets/bower_components/mtz-ajax-interceptor/mtz-auth-interceptor.html">
+  <link rel="import" href="assets/bower_components/mtz-ajax-interceptor/mtz-url-rewrite-interceptor.html">
+  <link rel="import" href="assets/bower_components/mtz-profile-picture/mtz-profile-picture.html">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>Loading...</app-root>
 </body>
 </html>
